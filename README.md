@@ -47,3 +47,6 @@ ExpectedValue - it represent a condition to be compared with an attribute value
 	get -> http://localhost:9001/dynamoDb?studentId=c415acc1-7db7-4ee8-bec2-fc2c474e7bfb&lastName=PK
 
 	create table in dynamodb with name "student" , partionkey "studentId" and sortkey "lastName"
+
+
+Refer: https://www.youtube.com/watch?v=agJxo7XcON0 https://www.youtube.com/watch?v=Q9hLQfBBbhU
