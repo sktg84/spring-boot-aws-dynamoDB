@@ -25,3 +25,22 @@ DynamoDBSaveExpression - you can use this to adding multiple expressions for you
 For example, you may want to save only if an attribute has a particular value.
 
 ExpectedValue - it represent a condition to be compared with an attribute value
+
+
+JSON to use:
+post -> http://localhost:9001/dynamoDb
+{
+ 
+ "lastName":"PK",
+ "firstName":"Rithhvi",
+ "age":"10",
+ "address":{
+	"addressline1":"5 kannammal st",
+	"addressline2":"hasthinapuram",
+	"state":"tn",
+	"city":"chennai",
+	"zipCode":"12345"
+	}
+}
+
+get -> http://localhost:9001/dynamoDb?studentId=c415acc1-7db7-4ee8-bec2-fc2c474e7bfb&lastName=PK
